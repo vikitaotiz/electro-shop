@@ -3,16 +3,11 @@ header {
 }
 
 .nav-arrows {
-  padding-top: 10%;
+  padding-top: 15%;
 }
 
 .arrow {
   color: #d35266;
-}
-
-.form-input {
-  max-width: 500px !important;
-  background-color: yellow;
 }
 
 .form > .row > .col {
@@ -70,7 +65,8 @@ footer {
   text-align: center;
 }
 
-.prod-img {
+.prod-img,
+.hot-ad-img {
   max-width: 100%;
 }
 
