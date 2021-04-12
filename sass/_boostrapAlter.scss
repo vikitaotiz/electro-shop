@@ -7,6 +7,14 @@ header {
   background-color: $theme-color-red;
 }
 
+.nav-arrows {
+  padding-top: 10%;
+}
+
+.arrow {
+  color: $theme-color-red;
+}
+
 .form-input {
   max-width: 500px !important;
   background-color: yellow;

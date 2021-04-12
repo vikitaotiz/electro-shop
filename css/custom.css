@@ -2,6 +2,14 @@ header {
   background-color: #d35266;
 }
 
+.nav-arrows {
+  padding-top: 10%;
+}
+
+.arrow {
+  color: #d35266;
+}
+
 .form-input {
   max-width: 500px !important;
   background-color: yellow;
