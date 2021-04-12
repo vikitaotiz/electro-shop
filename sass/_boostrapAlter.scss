@@ -1,0 +1,76 @@
+$theme-color-red : #d35266;
+$theme-color-dark: #383838;
+$border : 1px solid blue;
+$theme-category-back-color: #ebebeb;
+
+header {
+  background-color: $theme-color-red;
+}
+
+.form-input {
+  max-width: 500px !important;
+  background-color: yellow;
+}
+
+.form > .row > .col {
+  border: $border;
+}
+
+.upper-header,
+footer {
+  background-color: $theme-color-dark;
+}
+
+.btn-submit-search {
+  background-color: $theme-color-dark !important;
+}
+
+.btn-post-ad {
+  background-color: $theme-color-red !important;
+}
+
+.top-pick {
+  margin: auto !important;
+  width: 70%;
+}
+
+.top-product-price {
+  margin-top: 17%;
+}
+
+.btn-price {
+  color: $theme-color-red !important;
+  font-weight: bold !important;
+}
+
+.product-origin {
+  color: $theme-color-dark !important;
+}
+
+.top-section > a,
+.copy > a,
+.top-pick-title {
+  text-decoration: none;
+  color: $theme-color-dark;
+}
+
+.product-condition {
+  color: $theme-color-red !important;
+}
+
+.speaker-category {
+  background-color: $theme-category-back-color;
+}
+
+footer {
+  height: 200px;
+  text-align: center;
+}
+
+.prod-img {
+  max-width: 100%;
+}
+
+.top-section {
+  border-bottom: 1px solid rgb(221, 220, 220);
+}
