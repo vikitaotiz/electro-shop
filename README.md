@@ -1,7 +1,8 @@
 # using-bootstrap
 
+![electro-home](https://user-images.githubusercontent.com/42869046/114411509-e8f94180-9bb4-11eb-9fab-f0fb39337380.PNG)
 
-> Project #3 of Microverse where we'll try to apply bootstrap techonology to replicate a page. SASS included.
+> Electro Shop, an ecomerce site for selling electronics. SASS included.
 
 ## Built With
 
@@ -9,7 +10,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://srizzuto.github.io/using-bootstrap/)
+[Live Demo Link](https://vikitaotiz.github.io/electro-shop/)
 
 
 ## Getting Started
