@@ -1,7 +1,3 @@
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
 header {
   background-color: #d35266;
 }
@@ -95,4 +91,3 @@ footer {
 .top-section {
   border-bottom: 1px solid #dddcdc;
 }
-/*# sourceMappingURL=custom.css.map */
