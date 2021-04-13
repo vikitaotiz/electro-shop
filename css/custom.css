@@ -6,8 +6,12 @@ header {
   background-color: #d35266;
 }
 
+.user_profile > a {
+  text-decoration: none;
+}
+
 .form-input {
-  padding: 25px !important;
+  padding: 25px;
 }
 
 .nav-arrows {
@@ -24,23 +28,23 @@ footer {
 }
 
 .btn-submit-search {
-  background-color: #383838 !important;
+  background-color: #383838;
   color: #c5c3c3;
 }
 
 .btn-post-ad {
-  background-color: #d35266 !important;
-  height: 30px !important;
+  background-color: #d35266;
+  height: 30px;
   margin-top: 7px;
 }
 
 .top-pick {
-  margin: auto !important;
+  margin: auto;
   width: 70%;
 }
 
 .top-pick-container {
-  background-color: #f7f7f7 !important;
+  background-color: #f7f7f7;
 }
 
 .top-product-price {
@@ -48,17 +52,16 @@ footer {
 }
 
 .btn-price-1 {
-  font-weight: bold !important;
-  background-color: #d35266 !important;
+  background-color: #d35266;
 }
 
 .btn-price {
-  color: #d35266 !important;
-  font-weight: bold !important;
+  color: #d35266;
+  font-weight: bold;
 }
 
 .product-origin {
-  color: #383838 !important;
+  color: #383838;
 }
 
 .top-section > a,
@@ -68,12 +71,12 @@ footer {
 }
 
 .top-pick-title {
-  color: #d35266 !important;
+  color: #d35266;
   text-decoration: none;
 }
 
 .product-condition {
-  color: #d35266 !important;
+  color: #d35266;
 }
 
 .speaker-category {
