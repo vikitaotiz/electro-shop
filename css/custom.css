@@ -46,6 +46,10 @@ footer {
 .top-product-price {
   margin-top: 17%;
 }
+.btn-price-1 {
+  font-weight: bold !important;
+  background-color: #d35266 !important;
+}
 
 .btn-price {
   color: #d35266 !important;
@@ -57,10 +61,14 @@ footer {
 }
 
 .top-section > a,
-.copy > a,
-.top-pick-title {
+.copy > a {
   text-decoration: none;
   color: #383838;
+}
+
+.top-pick-title {
+  color: #d35266 !important;
+  text-decoration: none;
 }
 
 .product-condition {
