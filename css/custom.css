@@ -39,6 +39,10 @@ footer {
   width: 70%;
 }
 
+.top-pick-container {
+  background-color: #f7f7f7 !important;
+}
+
 .top-product-price {
   margin-top: 17%;
 }
@@ -64,7 +68,7 @@ footer {
 }
 
 .speaker-category {
-  background-color: #c5c3c3;
+  background-color: #f7f7f7;
 }
 
 footer {
@@ -77,8 +81,7 @@ footer {
 }
 
 .nav-footer {
-  background-color: #c5c3c3;
-  text-align: center;
+  background-color: #ece8e8;
 }
 
 .nav-footer-links {
