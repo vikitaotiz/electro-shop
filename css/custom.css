@@ -6,6 +6,10 @@ header {
   background-color: #d35266;
 }
 
+.form-input {
+  padding: 25px !important;
+}
+
 .nav-arrows {
   padding-top: 13%;
 }
@@ -21,10 +25,13 @@ footer {
 
 .btn-submit-search {
   background-color: #383838 !important;
+  color: #c5c3c3;
 }
 
 .btn-post-ad {
   background-color: #d35266 !important;
+  height: 30px !important;
+  margin-top: 7px;
 }
 
 .top-pick {
