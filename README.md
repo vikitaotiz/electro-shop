@@ -2,7 +2,7 @@
 
 ![electro-home](https://user-images.githubusercontent.com/42869046/114411509-e8f94180-9bb4-11eb-9fab-f0fb39337380.PNG)
 
-> Electro Shop, an ecomerce site for selling electronics. SASS included.
+> Electro Shop, an ecomerce site for selling electronics.
 
 ## Built With
 
@@ -19,11 +19,9 @@ To get a local copy up and running follow these simple example steps.
 
 Go to https://github.com/vikitaotiz/electro-shop
 
-1. Click on the code and copy the HTML code.
-2. Use terminal to clone this repository on your local machine.
-3. Run <code>git checkout -b your-branch-name</code>. Make your contributions.
-4. Push your branch up to your forked repository.
-5. Open a Pull Request with a detailed description of the development branch of the original project for a review.
+1. Clone the project from the repo.
+2. Navigate to the project.
+2. You can run the project by either using a local server e.g using VSCODE's live server or by clicking directly onto the index.html file to open in your browser.
 
 
 ## Authors

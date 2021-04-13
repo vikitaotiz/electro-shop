@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/fonts.css">
 </head>
 <body>
     <header class="mb-4">
@@ -30,13 +31,18 @@
                       <a class="nav-link mx-3" href="#">
                         <i class="fas fa-cart-plus"></i> PURCHASE LIST</a>
                     
-                       <button type="submit" class="text-white btn btn-post-ad rounded-0 border-0 btn-sm">POST AN AD</button>
-                    </div>
-                  </div>
-
-                  <div class="user-profile d-none d-lg-block">
-                      <a href="#" class="text-white"><i class="fas fa-user-circle"></i> Admin</a>
-                  </div>
+                        <button type="submit" class="text-white btn btn-post-ad rounded-0 border-0 btn-sm">POST AN AD</button>
+                        <a class="nav-link mx-3 d-lg-none d-sm-block" href="#">
+                         <i class="far fa-envelope mr-3"></i> Admin <i class="fas fa-user-circle ml-3"></i>
+                       </a>
+                     </div>
+                   </div>
+ 
+                   <div class="bd-highlight d-none d-lg-flex">
+                     <div class="p-2 user_profile"><a href="#"><i class="far fa-envelope"></i></a></div>
+                     <div class="p-2 user_profile"><a href="#">Admin</a></div>
+                     <div class="p-2 user_profile"><a href="#"><i class="fas fa-user-circle"></i></a></div>
+                   </div>
 
                 </div>
               </nav>
@@ -44,8 +50,8 @@
         </div>
         <div class="lower-header text-white container d-none d-lg-block p-2">
             <div class="ml-4">
-                <h1>Electro Shop</h1>
-                <h5>Search around 124,000 items are ready to be sold</h5>
+                <h1 class="gotham-bold">Electro Shop</h1>
+                <h3 class="font-weight-light gotham-light">Search around 124,000 items are ready to be sold</h3>
             </div>
             
             <div class="search-section my-5">
@@ -138,7 +144,18 @@
                                  <p>13 April 2021</p>
                                </div>
                                <div class="col-6 text-right pt-3">
-                                    <button type="submit" class="text-white btn btn-post-ad rounded-0 border-0 btn-sm">$499</button> 
+                                    <div class="btn-group dropup">
+                                        <button type="button" class="text-white btn btn-post-ad rounded-0 border-0 btn-sm" data-toggle="dropdown" aria-expanded="false">
+                                            $499
+                                        </button>
+                                        <ul class="dropdown-menu dropdown-menu-right">
+                                            <li><a class="dropdown-item" href="#">Add to Collection</a></li>
+                                            <li><hr class="dropdown-divider border-danger"></li>
+                                            <li><a class="dropdown-item" href="#">Add to Wishlist</a></li>
+                                            <li><hr class="dropdown-divider border-danger"></li>
+                                            <li><a class="dropdown-item" href="#">More Details</a></li>
+                                        </ul>
+                                    </div>
                                </div>
                            </div>
                        </div>
@@ -158,7 +175,18 @@
                               <p>13 April 2021</p>
                             </div>
                             <div class="col-6 text-right pt-3">
-                                 <button type="submit" class="text-white btn btn-post-ad rounded-0 border-0 btn-sm">$499</button> 
+                                <div class="btn-group dropup">
+                                    <button type="button" class="text-white btn btn-post-ad rounded-0 border-0 btn-sm" data-toggle="dropdown" aria-expanded="false">
+                                        $499
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-right">
+                                        <li><a class="dropdown-item" href="#">Add to Collection</a></li>
+                                        <li><hr class="dropdown-divider border-danger"></li>
+                                        <li><a class="dropdown-item" href="#">Add to Wishlist</a></li>
+                                        <li><hr class="dropdown-divider border-danger"></li>
+                                        <li><a class="dropdown-item" href="#">More Details</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -178,7 +206,18 @@
                                 <p>13 April 2021</p>
                                 </div>
                                 <div class="col-6 text-right pt-3">
-                                    <button type="submit" class="text-white btn btn-post-ad rounded-0 border-0 btn-sm">$499</button> 
+                                    <div class="btn-group dropup">
+                                        <button type="button" class="text-white btn btn-post-ad rounded-0 border-0 btn-sm" data-toggle="dropdown" aria-expanded="false">
+                                            $499
+                                        </button>
+                                        <ul class="dropdown-menu dropdown-menu-right">
+                                            <li><a class="dropdown-item" href="#">Add to Collection</a></li>
+                                            <li><hr class="dropdown-divider border-danger"></li>
+                                            <li><a class="dropdown-item" href="#">Add to Wishlist</a></li>
+                                            <li><hr class="dropdown-divider border-danger"></li>
+                                            <li><a class="dropdown-item" href="#">More Details</a></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -198,7 +237,18 @@
                                 <p>13 April 2021</p>
                                 </div>
                                 <div class="col-6 text-right pt-3">
-                                    <button type="submit" class="text-white btn btn-post-ad rounded-0 border-0 btn-sm">$499</button> 
+                                    <div class="btn-group dropup">
+                                        <button type="button" class="text-white btn btn-post-ad rounded-0 border-0 btn-sm" data-toggle="dropdown" aria-expanded="false">
+                                            $499
+                                        </button>
+                                        <ul class="dropdown-menu dropdown-menu-right">
+                                            <li><a class="dropdown-item" href="#">Add to Collection</a></li>
+                                            <li><hr class="dropdown-divider border-danger"></li>
+                                            <li><a class="dropdown-item" href="#">Add to Wishlist</a></li>
+                                            <li><hr class="dropdown-divider border-danger"></li>
+                                            <li><a class="dropdown-item" href="#">More Details</a></li>
+                                        </ul>
+                                    </div> 
                                 </div>
                             </div>
                         </div>
@@ -225,12 +275,12 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h5>Electro Shop</h5><hr>
+                    <h5 class="helvetica-medium">Electro Shop</h5><hr>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit autem magni rerum voluptates atque, quisquam illo. Repellendus cupiditate id veritatis cumque vel, fuga doloremque facilis. Cupiditate sed quod vitae dicta!
                 </div>
                 <div class="col nav-footer p-2 d-flex justify-content-around shadow">
                     <div>
-                        <h5>Categories</h5><hr>
+                        <h5 class="helvetica-medium">Categories</h5><hr>
                         <ul class="nav-footer-links">
                             <li><a href="#" class="p-4"> <i class="fas fa-th-large"></i> Speakers</a></li>
                             <li><a href="#" class="p-4"> <i class="fas fa-th-large"></i> TV</a></li>
@@ -238,7 +288,7 @@
                         </ul>
                     </div>
                     <div>
-                        <h5>Navigation</h5><hr>
+                        <h5 class="helvetica-medium">Navigation</h5><hr>
                         <ul class="nav-footer-links">
                             <li><a href="index.html" class="p-4"> <i class="fas fa-home"></i> HOME</a></li>
                             <li><a href="#" class="p-4"> <i class="fas fa-th-large"></i> COLLECTIONS</a></li>
@@ -250,15 +300,22 @@
             </div>
         </div>
     </section>
-    <footer class="text-white p-5 mt-5">
-        <div class="copy">
-            <a href="index.html" class="font-weight-bold text-white"><img class="p-2" src="images/zattix-logo.PNG" alt="logo"><br>
-                <span class="p-3">Electro Shop</span> </a><br>
-            <a href="#" class="text-white p-2"><i class="fab fa-facebook-f"></i> Facebook</a>
-            <a href="#" class="text-white p-2"><i class="fab fa-instagram"></i> Instagram</a>
-            <a href="#" class="text-white p-2"><i class="fab fa-twitter"></i> Twitter</a>
+    <footer class="text-white p-3 mt-4">
+        <div class="copy justify-content-center">
+            <a href="index.html" class="font-weight-bold text-white">
+                <img class="p-2" src="images/zattix-logo.PNG" alt="logo"><br>
+                <span class="p-3 helvetica-bold">Electro Shop</span> 
+            </a>
+            <div class="d-flex flex-row justify-content-center flex-wrap">
+                <a href="#" class="text-white p-2"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="#" class="text-white p-2"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="#" class="text-white p-2"><i class="fab fa-twitter"></i> Twitter</a>
+            </div>
             <p class="p-2">Copyright &copy; 2021</p>
         </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
 </html>
