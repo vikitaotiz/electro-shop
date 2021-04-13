@@ -1,7 +1,5 @@
 body {
-  /* stylelint-disable */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  /* stylelint-enable */
 }
 
 header {
@@ -14,10 +12,6 @@ header {
 
 .arrow {
   color: #d35266;
-}
-
-.form > .row > .col {
-  border: 1px solid blue;
 }
 
 .upper-header,
@@ -97,3 +91,4 @@ footer {
 .top-section {
   border-bottom: 1px solid #dddcdc;
 }
+/*# sourceMappingURL=custom.css.map */
