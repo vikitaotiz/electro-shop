@@ -77,7 +77,7 @@ footer {
 }
 
 .speaker-category {
-  background-color: #dddddd;
+  background-color: #ddd;
 }
 
 footer {
@@ -91,6 +91,7 @@ footer {
 
 .nav-footer {
   background-color: #ece8e8;
+  border: 1px solid #b9b8b8;
 }
 
 .nav-footer-links {
