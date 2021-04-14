@@ -39,5 +39,5 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Thanks to Mohammed Anwar of [Behance] (https://www.behance.net/gallery/24796463/ZATTIX) for the amazing website design that this project is based on.
+- Thanks to Mohammed Anwar of [Behance](https://www.behance.net/gallery/24796463/ZATTIX) for the amazing website design that this project is based on.
 - To my Stand Up Team who kept my morale up!
