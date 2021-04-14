@@ -1,36 +1,35 @@
 @font-face {
-  font-family: 'gothambold';
-  src: url('fonts/gothambold.eot');
-  src: local('gothambold'), url('fonts/gothambold.woff') format('woff'), url('fonts/gothambold.ttf') format('truetype');
+  font-family: "gothambold";
+  src: url("fonts/gothambold.eot");
 }
 
 .gotham-bold {
-  font-family: 'gothambold';
+  font-family: "gothambold", serif;
 }
 
 @font-face {
-  font-family: 'gotham-light';
-  src: url('fonts/Gotham-Rounded-Light.otf');
+  font-family: "gotham-light";
+  src: url("fonts/Gotham-Rounded-Light.otf");
 }
 
 .gotham-light {
-  font-family: 'gotham-light';
+  font-family: "gotham-light", serif;
 }
 
 @font-face {
-  font-family: 'helvetica-medium';
-  src: url('fonts/helvetica-light.ttf');
+  font-family: "helvetica-medium";
+  src: url("fonts/helvetica-light.ttf");
 }
 
 .helvetica-medium {
-  font-family: 'helvetica-medium';
+  font-family: "helvetica-medium", serif;
 }
 
 @font-face {
-  font-family: 'helvetica-bold';
-  src: url('fonts/helvetica-bold.ttf');
+  font-family: "helvetica-bold";
+  src: url("fonts/helvetica-bold.ttf");
 }
-  
+
 .helvetica-bold {
-  font-family: 'helvetica-bold';
+  font-family: "helvetica-bold", serif;
 }
