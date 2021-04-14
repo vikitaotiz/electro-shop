@@ -5,7 +5,7 @@
 }
 
 .gotham-bold {
-  font-family: 'gothambold' !important;
+  font-family: 'gothambold';
 }
 
 @font-face {
@@ -14,7 +14,7 @@
 }
 
 .gotham-light {
-  font-family: 'gotham-light' !important;
+  font-family: 'gotham-light';
 }
 
 @font-face {

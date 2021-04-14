@@ -53,10 +53,6 @@ footer {
   background-color: #f7f7f7;
 }
 
-.top-product-price {
-  margin-top: 17%;
-}
-
 .btn-price-1 {
   background-color: #d35266;
 }
@@ -89,6 +85,10 @@ footer {
   background-color: #ddd;
 }
 
+.fa-plus-square {
+  color: #888888;
+}
+
 footer {
   text-align: center;
 }
@@ -118,4 +118,18 @@ footer {
 
 .top-section {
   border-bottom: 1px solid #faf7f7;
+}
+
+@media only screen and (max-width: 992px) {
+  .lower-header {
+    display: none;
+  }
+
+  .top-pick {
+    display: none;
+  }
+
+  .upper-footer {
+    display: none;
+  }
 }
