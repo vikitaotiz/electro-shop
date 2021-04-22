@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electro Shop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/fonts.css">
+</head>
+<body>
+    <header class="mb-4">
+        <div class="upper-header sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand font-weight-bold" href="index.html">
+                      <img src="images/zattix-logo.PNG" alt="logo">
+                      Electro Shop</a>
+                      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                  <div class="collapse navbar-collapse">
+                    <div class="navbar-nav">
+                      <a class="nav-link active mx-3" aria-current="page" href="#">
+                        <i class="fas fa-home"></i> HOME</a>
+                      <a class="nav-link mx-3" href="#">
+                        <i class="fas fa-th-large"></i> COLLECTIONS
+                      </a>
+                      <a class="nav-link mx-3" href="#">
+                        <i class="fas fa-cart-plus"></i> PURCHASE LIST
+                      </a>
+                       <button type="submit" class="text-white btn btn-post-ad rounded-0 border-0 btn-sm">POST AN AD</button>
+                       <a class="nav-link mx-3 d-lg-none d-sm-block" href="#">
+                        <i class="far fa-envelope mr-3"></i> Admin <i class="fas fa-user-circle ml-3"></i>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="bd-highlight d-none d-lg-flex">
+                    <div class="p-2 user_profile"><a href="#"><i class="far fa-envelope"></i></a></div>
+                    <div class="p-2 user_profile"><a href="#">Admin</a></div>
+                    <div class="p-2 user_profile"><a href="#"><i class="fas fa-user-circle"></i></a></div>
+                  </div>
+
+                </div>
+              </nav>
+              
+        </div>
+        <div class="lower-header text-white container p-2">
+            <div class="text-center">
+                <h1 class="gotham-bold">Electro Shop</h1>
+                <h2 class="font-weight-light gotham-light">Buying And Selling couldn't be simpler than this</h2>
+            </div>
+            
+            <div class="search-section my-5 justify-content-center">
+                <form action="search.html">
+                    <div class="container form">
+                        <div class="d-flex justify-content-center">
+                            <select class="form-select rounded-0 w-50 border-danger" aria-label="Default select example">
+                                <option selected>All Categories</option>
+                                <option value="1">Speakers</option>
+                                <option value="2">TV</option>
+                                <option value="3">Accessories</option>
+                              </select>
+                            <input type="email" class="form-control form-input rounded-0 w-75 border-danger" placeholder="Speaker">
+                            <input type="email" class="form-control form-input rounded-0 w-75 border-danger" placeholder="Nairobi">
+                            <button type="submit" class="ml-4 btn btn-submit-search rounded-0 border-0">SEARCH</button>
+                        </div>
+                      </div>
+                  </form>
+            </div>
+        </div>
+        
+    </header>
+    <main>
+        <div class="container">
+
+            <div class="top-pick">
+                <a href="#" class="top-pick-title font-weight-bold mb-2">TOP SELLER THIS WEEK</a>
+                <div class="container border p-2 row top-pick-container shadow">
+                    <div class="col-1 font-weight-bold nav-arrows">
+                        <a href="#" class="arrow">
+                            <i class="fas fa-arrow-left"></i>
+                        </a>
+                    </div>
+                    <div class="top-pick-img col-4">
+                        <img class="hot-ad-img" src="https://auspost.com.au/shop/static/WFS/AusPost-Shop-Site/-/AusPost-Shop/en_AU/product/52044-AusPost/1/org.jpg" alt="bt-speaker">
+                    </div>
+                    <div class="top-pick-details col-6 border-start">
+                        <h3 class="helvetica-bold font-weght-bold">Bluetooth Speaker One</h3>
+                        <p class="product-condition">New</p>
+                        <ul class="list-group list-group-flush">
+                            <li>Color: black</li>
+                            <li>Brand: Sony</li>
+                            <li>Frequency: 5.0</li>
+                        </ul>
+                        <div class="d-flex justify-content-between mt-5">
+                            <div class="btn-group dropup">
+                                <button type="button" class="btn rounded-0" data-toggle="dropdown" aria-expanded="false">
+                                    <i class="far fa-plus-square"></i>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Add to Collection</a></li>
+                                    <li><hr class="dropdown-divider border-danger"></li>
+                                    <li><a class="dropdown-item" href="#">Add to Wishlist</a></li>
+                                    <li><hr class="dropdown-divider border-danger"></li>
+                                    <li><a class="dropdown-item" href="#">More Details</a></li>
+                                </ul>
+                            </div>
+                            <button type="button" class="btn btn-sm btn-light rounded-0 btn-price"> $499.00 </button>
+                        </div>
+                    </div>
+
+                    <div class="col-1 font-weight-bold nav-arrows">
+                        <a href="#" class="arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="row border mt-4 p-1 speaker-category pb-4">
+              <div class="p-3 col-lg-12 col-sm-12 col-md-12 top-section font-weight-bold mb-5">
+                <a href="#" class="p-2"><i class="fas fa-th"></i> Speakers <small>(Lorem Ipsum is simply dummy tex)</small></a>
+                <a href="#" class="float-right  p-2">See All</a>
+              </div>
+              <div class="col-lg-3 col-sm-6 col-md-6">
+                <div class="border p-2 bg-light shadow">
+                    <div class="product-image mb-2">
+                        <img class="prod-img" src="https://auspost.com.au/shop/static/WFS/AusPost-Shop-Site/-/AusPost-Shop/en_AU/product/52044-AusPost/1/org.jpg" alt="bt-speaker">
+                    </div>
+                    <div class="product-details p-2">
+                        <h3 class="helvetica-bold font-weght-bold">Bluetooth Speaker One</h3>
+                        <small class="product-origin">Brand: Sony</small>
+                        <p class="product-condition">New</p>
+                        <p class="product-origin">From: USA</p>
+                    </div>
+                    <div class="product-price d-flex justify-content-between">
+                        <div class="btn-group dropup">
+                            <button type="button" class="btn rounded-0" data-toggle="dropdown" aria-expanded="false">
+                                <i class="far fa-plus-square"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Add to Collection</a></li>
+                                <li><hr class="dropdown-divider border-danger"></li>
+                                <li><a class="dropdown-item" href="#">Add to Wishlist</a></li>
+                                <li><hr class="dropdown-divider border-danger"></li>
+                                <li><a class="dropdown-item" href="#">More Details</a></li>
+                            </ul>
+                        </div>
+                        <button type="button" class="btn btn-sm btn-light rounded-0 btn-price"> $499.00 </button>
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6 col-md-6">
+                <div class="border p-2 bg-light shadow">
+                    <div class="product-image mb-2">
+                        <img class="prod-img" src="https://static.bhphoto.com/images/images2000x2000/1556732764_1475299.jpg" alt="bt-speaker">
+                    </div>
+                    <div class="product-details p-2">
+                        <h3 class="helvetica-bold font-weght-bold">Bluetooth Speaker Two</h3>
+                        <small class="product-origin">Brand: Sony</small>
+                        <p class="product-condition">New</p>
+                        <p class="product-origin">From: USA</p>
+                    </div>
+                    <div class="product-price d-flex justify-content-between">
+                        <div class="btn-group dropup">
+                            <button type="button" class="btn rounded-0" data-toggle="dropdown" aria-expanded="false">
+                                <i class="far fa-plus-square"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Add to Collection</a></li>
+                                <li><hr class="dropdown-divider border-danger"></li>
+                                <li><a class="dropdown-item" href="#">Add to Wishlist</a></li>
+                                <li><hr class="dropdown-divider border-danger"></li>
+                                <li><a class="dropdown-item" href="#">More Details</a></li>
+                            </ul>
+                        </div>
+                        <button type="button" class="btn btn-sm btn-light rounded-0 btn-price"> $499.00 </button>
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6 col-md-6">
+                <div class="border p-2 bg-light shadow">
+                    <div class="product-image mb-2">
+                        <img class="prod-img" src="https://cdn.vox-cdn.com/thumbor/WX0Mp2YVGT6hRHzQdhYj-lBOF-k=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/18958330/SonosBT.jpg" alt="bt-speaker">
+                    </div>
+                    <div class="product-details p-2">
+                        <h3 class="helvetica-bold font-weght-bold">Bluetooth Speaker Three</h3>
+                        <small class="product-origin">Brand: Sony</small>
+                        <p class="product-condition">New</p>
+                        <p class="product-origin">From: USA</p>
+                    </div>
+                    <div class="product-price d-flex justify-content-between">
+                        <div class="btn-group dropup">
+                            <button type="button" class="btn rounded-0" data-toggle="dropdown" aria-expanded="false">
+                                <i class="far fa-plus-square"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Add to Collection</a></li>
+                                <li><hr class="dropdown-divider border-danger"></li>
+                                <li><a class="dropdown-item" href="#">Add to Wishlist</a></li>
+                                <li><hr class="dropdown-divider border-danger"></li>
+                                <li><a class="dropdown-item" href="#">More Details</a></li>
+                            </ul>
+                        </div>
+                        <button type="button" class="btn btn-sm btn-light rounded-0 btn-price"> $499.00 </button>
+                    </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-sm-6 col-md-6">
+                <div class="border p-2 bg-light shadow">
+                    <div class="product-image mb-2">
+                        <img class="prod-img" src="https://i5.walmartimages.com/asr/8b7a6696-de10-42ba-819e-ed130ee9093b_1.1d9affdf3c24003fe1f7b5e6e84ebe18.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff" alt="bt-speaker">
+                    </div>
+                    <div class="product-details p-2">
+                        <h3 class="helvetica-bold font-weght-bold">Bluetooth Speaker Four</h3>
+                        <small class="product-origin">Brand: Sony</small>
+                        <p class="product-condition">New</p>
+                        <p class="product-origin">From: USA</p>
+                    </div>
+                    <div class="product-price d-flex justify-content-between">
+                        <div class="btn-group dropup">
+                            <button type="button" class="btn rounded-0" data-toggle="dropdown" aria-expanded="false">
+                                <i class="far fa-plus-square"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Add to Collection</a></li>
+                                <li><hr class="dropdown-divider border-danger"></li>
+                                <li><a class="dropdown-item" href="#">Add to Wishlist</a></li>
+                                <li><hr class="dropdown-divider border-danger"></li>
+                                <li><a class="dropdown-item" href="#">More Details</a></li>
+                            </ul>
+                        </div>
+                        <button type="button" class="btn btn-sm btn-light rounded-0 btn-price"> $499.00 </button>
+                    </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="row border mt-4 p-1 speaker-category pb-4">
+                <div class="p-3 col-lg-12 col-sm-12 col-md-12 top-section font-weight-bold mb-5">
+                  <a href="#" class="p-2"><i class="fas fa-th"></i> TVs <small>(Lorem Ipsum is simply dummy tex)</small></a>
+                  <a href="#" class="float-right  p-2">See All</a>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-md-6">
+                  <div class="border p-2 bg-light shadow">
+                      <div class="product-image mb-2">
+                          <img class="prod-img" src="https://auspost.com.au/shop/static/WFS/AusPost-Shop-Site/-/AusPost-Shop/en_AU/product/52044-AusPost/1/org.jpg" alt="bt-speaker">
+                      </div>
+                      <div class="product-details p-2">
+                          <h3 class="helvetica-bold font-weght-bold">Bluetooth Speaker One</h3>
+                          <small class="product-origin">Brand: Sony</small>
+                          <p class="product-condition">New</p>
+                          <p class="product-origin">From: USA</p>
+                      </div>
+                      <div class="product-price d-flex justify-content-between">
+                        <div class="btn-group dropup">
+                            <button type="button" class="btn rounded-0" data-toggle="dropdown" aria-expanded="false">
+                                <i class="far fa-plus-square"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Add to Collection</a></li>
+                                <li><hr class="dropdown-divider border-danger"></li>
+                                <li><a class="dropdown-item" href="#">Add to Wishlist</a></li>
+                                <li><hr class="dropdown-divider border-danger"></li>
+                                <li><a class="dropdown-item" href="#">More Details</a></li>
+                            </ul>
+                        </div>
+                        <button type="button" class="btn btn-sm btn-light rounded-0 btn-price"> $499.00 </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-md-6">
+                  <div class="border p-2 bg-light shadow">
+                      <div class="product-image mb-2">
+                          <img class="prod-img" src="https://static.bhphoto.com/images/images2000x2000/1556732764_1475299.jpg" alt="bt-speaker">
+                      </div>
+                      <div class="product-details p-2">
+                          <h3 class="helvetica-bold font-weght-bold">Bluetooth Speaker Two</h3>
+                          <small class="product-origin">Brand: Sony</small>
+                          <p class="product-condition">New</p>
+                          <p class="product-origin">From: USA</p>
+                      </div>
+                      <div class="product-price d-flex justify-content-between">
+                        <div class="btn-group dropup">
+                            <button type="button" class="btn rounded-0" data-toggle="dropdown" aria-expanded="false">
+                                <i class="far fa-plus-square"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Add to Collection</a></li>
+                                <li><hr class="dropdown-divider border-danger"></li>
+                                <li><a class="dropdown-item" href="#">Add to Wishlist</a></li>
+                                <li><hr class="dropdown-divider border-danger"></li>
+                                <li><a class="dropdown-item" href="#">More Details</a></li>
+                            </ul>
+                        </div>
+                        <button type="button" class="btn btn-sm btn-light rounded-0 btn-price"> $499.00 </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-md-6">
+                  <div class="border p-2 bg-light shadow">
+                      <div class="product-image mb-2">
+                          <img class="prod-img" src="https://cdn.vox-cdn.com/thumbor/WX0Mp2YVGT6hRHzQdhYj-lBOF-k=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/18958330/SonosBT.jpg" alt="bt-speaker">
+                      </div>
+                      <div class="product-details p-2">
+                          <h3 class="helvetica-bold font-weght-bold">Bluetooth Speaker Three</h3>
+                          <small class="product-origin">Brand: Sony</small>
+                          <p class="product-condition">New</p>
+                          <p class="product-origin">From: USA</p>
+                      </div>
+                      <div class="product-price d-flex justify-content-between">
+                        <div class="btn-group dropup">
+                            <button type="button" class="btn rounded-0" data-toggle="dropdown" aria-expanded="false">
+                                <i class="far fa-plus-square"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Add to Collection</a></li>
+                                <li><hr class="dropdown-divider border-danger"></li>
+                                <li><a class="dropdown-item" href="#">Add to Wishlist</a></li>
+                                <li><hr class="dropdown-divider border-danger"></li>
+                                <li><a class="dropdown-item" href="#">More Details</a></li>
+                            </ul>
+                        </div>
+                        <button type="button" class="btn btn-sm btn-light rounded-0 btn-price"> $499.00 </button>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col-lg-3 col-sm-6 col-md-6">
+                  <div class="border p-2 bg-light shadow">
+                      <div class="product-image mb-2">
+                          <img class="prod-img" src="https://i5.walmartimages.com/asr/8b7a6696-de10-42ba-819e-ed130ee9093b_1.1d9affdf3c24003fe1f7b5e6e84ebe18.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff" alt="bt-speaker">
+                      </div>
+                      <div class="product-details p-2">
+                          <h3 class="helvetica-bold font-weght-bold">Bluetooth Speaker Four</h3>
+                          <small class="product-origin">Brand: Sony</small>
+                          <p class="product-condition">New</p>
+                          <p class="product-origin">From: USA</p>
+                      </div>
+                      <div class="product-price d-flex justify-content-between">
+                        <div class="btn-group dropup">
+                            <button type="button" class="btn rounded-0" data-toggle="dropdown" aria-expanded="false">
+                                <i class="far fa-plus-square"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Add to Collection</a></li>
+                                <li><hr class="dropdown-divider border-danger"></li>
+                                <li><a class="dropdown-item" href="#">Add to Wishlist</a></li>
+                                <li><hr class="dropdown-divider border-danger"></li>
+                                <li><a class="dropdown-item" href="#">More Details</a></li>
+                            </ul>
+                        </div>
+                        <button type="button" class="btn btn-sm btn-light rounded-0 btn-price"> $499.00 </button>
+                    </div>
+                  </div>
+                </div>
+  
+            </div>
+            
+            <div class="row border mt-4 p-1 speaker-category pb-4">
+                <div class="p-3 col-lg-12 col-sm-12 col-md-12 top-section font-weight-bold mb-5">
+                  <a href="#" class="p-2"><i class="fas fa-th"></i> Accessories <small>(Lorem Ipsum is simply dummy tex)</small></a>
+                  <a href="#" class="float-right  p-2">See All</a>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-md-6">
+                  <div class="border p-2 bg-light shadow">
+                      <div class="product-image mb-2">
+                          <img class="prod-img" src="https://auspost.com.au/shop/static/WFS/AusPost-Shop-Site/-/AusPost-Shop/en_AU/product/52044-AusPost/1/org.jpg" alt="bt-speaker">
+                      </div>
+                      <div class="product-details p-2">
+                          <h3 class="helvetica-bold font-weght-bold">Bluetooth Speaker One</h3>
+                          <small class="product-origin">Brand: Sony</small>
+                          <p class="product-condition">New</p>
+                          <p class="product-origin">From: USA</p>
+                      </div>
+                      <div class="product-price d-flex justify-content-between">
+                        <div class="btn-group dropup">
+                            <button type="button" class="btn rounded-0" data-toggle="dropdown" aria-expanded="false">
+                                <i class="far fa-plus-square"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Add to Collection</a></li>
+                                <li><hr class="dropdown-divider border-danger"></li>
+                                <li><a class="dropdown-item" href="#">Add to Wishlist</a></li>
+                                <li><hr class="dropdown-divider border-danger"></li>
+                                <li><a class="dropdown-item" href="#">More Details</a></li>
+                            </ul>
+                        </div>
+                        <button type="button" class="btn btn-sm btn-light rounded-0 btn-price"> $499.00 </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-md-6">
+                  <div class="border p-2 bg-light shadow">
+                      <div class="product-image mb-2">
+                          <img class="prod-img" src="https://static.bhphoto.com/images/images2000x2000/1556732764_1475299.jpg" alt="bt-speaker">
+                      </div>
+                      <div class="product-details p-2">
+                          <h3 class="helvetica-bold font-weght-bold">Bluetooth Speaker Two</h3>
+                          <small class="product-origin">Brand: Sony</small>
+                          <p class="product-condition">New</p>
+                          <p class="product-origin">From: USA</p>
+                      </div>
+                      <div class="product-price d-flex justify-content-between">
+                        <div class="btn-group dropup">
+                            <button type="button" class="btn rounded-0" data-toggle="dropdown" aria-expanded="false">
+                                <i class="far fa-plus-square"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Add to Collection</a></li>
+                                <li><hr class="dropdown-divider border-danger"></li>
+                                <li><a class="dropdown-item" href="#">Add to Wishlist</a></li>
+                                <li><hr class="dropdown-divider border-danger"></li>
+                                <li><a class="dropdown-item" href="#">More Details</a></li>
+                            </ul>
+                        </div>
+                        <button type="button" class="btn btn-sm btn-light rounded-0 btn-price"> $499.00 </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-md-6">
+                  <div class="border p-2 bg-light shadow">
+                      <div class="product-image mb-2">
+                          <img class="prod-img" src="https://cdn.vox-cdn.com/thumbor/WX0Mp2YVGT6hRHzQdhYj-lBOF-k=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/18958330/SonosBT.jpg" alt="bt-speaker">
+                      </div>
+                      <div class="product-details p-2">
+                          <h3 class="helvetica-bold font-weght-bold">Bluetooth Speaker Three</h3>
+                          <small class="product-origin">Brand: Sony</small>
+                          <p class="product-condition">New</p>
+                          <p class="product-origin">From: USA</p>
+                      </div>
+                      <div class="product-price d-flex justify-content-between">
+                        <div class="btn-group dropup">
+                            <button type="button" class="btn rounded-0" data-toggle="dropdown" aria-expanded="false">
+                                <i class="far fa-plus-square"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Add to Collection</a></li>
+                                <li><hr class="dropdown-divider border-danger"></li>
+                                <li><a class="dropdown-item" href="#">Add to Wishlist</a></li>
+                                <li><hr class="dropdown-divider border-danger"></li>
+                                <li><a class="dropdown-item" href="#">More Details</a></li>
+                            </ul>
+                        </div>
+                        <button type="button" class="btn btn-sm btn-light rounded-0 btn-price"> $499.00 </button>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col-lg-3 col-sm-6 col-md-6">
+                  <div class="border p-2 bg-light shadow">
+                      <div class="product-image mb-2">
+                          <img class="prod-img" src="https://i5.walmartimages.com/asr/8b7a6696-de10-42ba-819e-ed130ee9093b_1.1d9affdf3c24003fe1f7b5e6e84ebe18.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff" alt="bt-speaker">
+                      </div>
+                      <div class="product-details p-2">
+                          <h3 class="helvetica-bold font-weght-bold">Bluetooth Speaker Four</h3>
+                          <small class="product-origin">Brand: Sony</small>
+                          <p class="product-condition">New</p>
+                          <p class="product-origin">From: USA</p>
+                      </div>
+                      <div class="product-price d-flex justify-content-between">
+                        <div class="btn-group dropup">
+                            <button type="button" class="btn rounded-0" data-toggle="dropdown" aria-expanded="false">
+                                <i class="far fa-plus-square"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Add to Collection</a></li>
+                                <li><hr class="dropdown-divider border-danger"></li>
+                                <li><a class="dropdown-item" href="#">Add to Wishlist</a></li>
+                                <li><hr class="dropdown-divider border-danger"></li>
+                                <li><a class="dropdown-item" href="#">More Details</a></li>
+                            </ul>
+                        </div>
+                        <button type="button" class="btn btn-sm btn-light rounded-0 btn-price"> $499.00 </button>
+                    </div>
+                  </div>
+                </div>
+  
+            </div>
+
+          </div>
+    </main>
+    <section class="mt-5 p-3 upper-footer">
+        <div class="container">
+            <div class="d-flex">
+                <div class="col">
+                    <h3 class="helvetica-medium">Electro Shop</h3><hr>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit autem magni rerum voluptates atque, quisquam illo. Repellendus cupiditate id veritatis cumque vel, fuga doloremque facilis. Cupiditate sed quod vitae dicta!
+                </div>
+                <div class="col nav-footer p-2 d-flex justify-content-around shadow">
+                    <div>
+                        <h3 class="helvetica-medium">Categories</h3><hr>
+                        <ul class="nav-footer-links">
+                            <li><a href="#" class="p-4"> <i class="fas fa-th-large"></i> Speakers</a></li>
+                            <li><a href="#" class="p-4"> <i class="fas fa-th-large"></i> TV</a></li>
+                            <li><a href="#" class="p-4"> <i class="fas fa-th-large"></i> Accessories</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="helvetica-medium">Navigation</h3><hr>
+                        <ul class="nav-footer-links">
+                            <li><a href="#" class="p-4"> <i class="fas fa-home"></i> HOME</a></li>
+                            <li><a href="#" class="p-4"> <i class="fas fa-th-large"></i> COLLECTIONS</a></li>
+                            <li><a href="#" class="p-4"> <i class="fas fa-cart-plus"></i> PURCHASE LIST</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-white p-3 mt-4">
+        <div class="copy justify-content-center">
+            <a href="index.html" class="font-weight-bold text-white">
+                <img class="p-2" src="images/zattix-logo.PNG" alt="logo"><br>
+                <span class="p-3 helvetica-bold">Electro Shop</span> 
+            </a>
+            <div class="d-flex flex-row justify-content-center flex-wrap">
+                <a href="#" class="text-white p-2"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="#" class="text-white p-2"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="#" class="text-white p-2"><i class="fab fa-twitter"></i> Twitter</a>
+            </div>
+            <p class="p-2">Copyright &copy; 2021</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
